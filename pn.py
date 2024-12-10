@@ -67,7 +67,7 @@ class LicenseKey:
            if len(auth) <=5:exit()
            else:self.confirm(auth)
 
-    def confirm(self, keys, token = 'WyIxMDAyMDQwMDkiLCJXVFEwdnpRMG5iZ2RzZEVPM1ZKTkgyWDVZNzZhRHlxNHNqVEtnbHJDIl0=', produc_id='28333'):
+    def confirm(self, keys, token = 'WyIxMDA0MTM4NzEiLCJTZFlHU1lHZFFUa3ZEM3dkTG14ZmRHQThFdTcwZTBiMFBTSWhUcE1OIl0=', produc_id='28358'):
         skrg = datetime.datetime.now()
         hari = skrg.day
         buln = skrg.month
