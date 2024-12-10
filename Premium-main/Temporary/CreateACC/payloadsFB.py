@@ -2279,7 +2279,6 @@ class Require:
 class Main:
   def __init__(self):
     self.xyz = requests.Session()
-    self.pwww = Console().input('[grey50]Masukan Password:  [green]')
     self.mail = Requ().createMail()
   
   def timer(self, seconds):
